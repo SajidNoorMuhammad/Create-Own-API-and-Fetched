@@ -10,7 +10,7 @@ const Course = async () => {
         <div>
             <h1 className=' text-3xl text-fuchsia-800 font-bold underline bg-fuchsia-400 p-3 text-center'>Courses</h1>
 
-            <div className=' grid grid-cols-4 container mx-auto gap-4 mt-6'>
+            <div className=' grid grid-cols-4 container mx-auto gap-4 mt-5'>
                 {
                     course.course.map((data) => (
                         <div key={data.id} className=' bg-fuchsia-100 border-2 border-fuchsia-600 rounded p-3 space-y-2'>
